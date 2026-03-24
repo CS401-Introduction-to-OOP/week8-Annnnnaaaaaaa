@@ -2,10 +2,9 @@
 
 public class Letter : DeliveryItem
 {
-    public Letter (string trackingNumber, double weight) : base (trackingNumber, weight)
+    public Letter(string trackingNumber, double weight) : base(trackingNumber, weight)
     {
-        trackingNumber = TrackingNumber;
-        weight = Weight;
+        
     }
     
     public override void CalculateCost()
