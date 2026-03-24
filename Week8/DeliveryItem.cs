@@ -11,10 +11,7 @@ public abstract class DeliveryItem
         Weight = weight;
     }
 
-    public abstract double CalculateCost()
-    {
-        return deviveryCost; // повертає вартість доставки
-    }
+    public abstract double CalculateCost(); // повертає вартість доставки
 
     public virtual string PrintInfo()
     {
