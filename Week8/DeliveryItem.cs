@@ -13,8 +13,9 @@ public abstract class DeliveryItem
 
     public abstract double CalculateCost(); // повертає вартість доставки
 
-    public virtual string PrintInfo()
+    public virtual void PrintInfo()
     {
-        return $"Tracking number: {trackingNumber}, weight: {weight}";
+        Console.WriteLine($"Tracking number: {TrackingNumber}, weight: {Weight}");
+        
     }
 }

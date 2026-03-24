@@ -7,8 +7,8 @@ public class Letter : DeliveryItem
         
     }
     
-    public override void CalculateCost()
+    public override double CalculateCost()
     {
-        return 15 + weight * 10;
+        return 15 + Weight * 10;
     }
 }
